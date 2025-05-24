@@ -12,7 +12,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2 font-bold text-xl">
             <Utensils className="h-5 w-5" />
-            <span>Survival Eats</span>
+            <span>Snackademy</span>
           </Link>
           <nav className="hidden md:flex gap-6">
             <Link href="/grocery-basics" className="text-sm font-medium hover:underline underline-offset-4">
@@ -97,7 +97,7 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why Survival Eats?</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why Snackademy?</h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   We break down the basics of food independence into simple, actionable steps that anyone can follow.
                 </p>
@@ -251,7 +251,7 @@ export default function Home() {
       <footer className="w-full border-t py-6 md:py-0">
         <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
           <p className="text-center text-sm leading-loose text-gray-500 md:text-left">
-            © 2024 Survival Eats. All rights reserved.
+            © 2024 Snackademy. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link href="/terms" className="text-sm text-gray-500 hover:underline underline-offset-4">

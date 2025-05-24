@@ -7,10 +7,9 @@ import { Toaster } from "@/components/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Survival Eats - Learn to Feed Yourself",
+  title: "Snackademy - Learn to Feed Yourself",
   description:
     "Your step-by-step guide to buying groceries and cooking for yourself, even if you've never boiled water.",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

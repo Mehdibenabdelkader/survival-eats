@@ -27,13 +27,13 @@ export default function ChatPage() {
         id: nanoid(),
         role: "system",
         content:
-          "You are a helpful cooking and food assistant for Survival Eats, a website that helps beginners learn how to buy groceries and cook for themselves. Provide friendly, practical advice about grocery shopping, cooking techniques, kitchen tools, meal planning, and food storage. Keep answers concise and beginner-friendly. If asked about recipes, focus on simple, approachable options with minimal ingredients and basic techniques.",
+          "You are a helpful cooking and food assistant for Snackademy, a website that helps beginners learn how to buy groceries and cook for themselves. Provide friendly, practical advice about grocery shopping, cooking techniques, kitchen tools, meal planning, and food storage. Keep answers concise and beginner-friendly. If asked about recipes, focus on simple, approachable options with minimal ingredients and basic techniques.",
       },
       {
         id: nanoid(),
         role: "assistant",
         content:
-          "Hi there! I'm your Survival Eats assistant. I'm here to help with any questions about grocery shopping, cooking basics, kitchen tools, or meal planning. What would you like to learn about today?",
+          "Hi there! I'm your Snackademy assistant. I'm here to help with any questions about grocery shopping, cooking basics, kitchen tools, or meal planning. What would you like to learn about today?",
       },
     ],
   })
@@ -103,7 +103,7 @@ export default function ChatPage() {
 
       <main className="flex-1 container py-6 md:py-12 flex flex-col">
         <div className="flex flex-col items-center justify-center mb-8">
-          <h1 className="text-3xl font-bold tracking-tighter">Survival Eats Assistant</h1>
+          <h1 className="text-3xl font-bold tracking-tighter">Snackademy Assistant</h1>
           <p className="text-gray-500 mt-2 text-center max-w-[600px]">
             Ask me anything about grocery shopping, cooking basics, or meal planning!
           </p>
@@ -117,7 +117,7 @@ export default function ChatPage() {
                   {message.role === "user" ? (
                     <User className="h-5 w-5 mt-1 text-gray-500" />
                   ) : (
-                    <Bot className="h-5 w-5 mt-1 text-green-600" />
+                    <Bot className="h-5 w-5 mt-1 text-[#FCAE47]" />
                   )}
                   <div className="flex-1">{message.content}</div>
                 </CardContent>
@@ -150,7 +150,7 @@ export default function ChatPage() {
       <footer className="w-full border-t py-6 md:py-0">
         <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
           <p className="text-center text-sm leading-loose text-gray-500 md:text-left">
-            © 2024 Survival Eats. All rights reserved.
+            © 2024 Snackademy. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link href="/terms" className="text-sm text-gray-500 hover:underline underline-offset-4">

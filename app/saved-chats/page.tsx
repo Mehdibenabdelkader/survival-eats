@@ -26,7 +26,7 @@ export default async function SavedChatsPage() {
       <main className="flex-1 container py-6 md:py-12">
         <div className="flex flex-col items-center justify-center mb-8">
           <h1 className="text-3xl font-bold tracking-tighter">Saved Conversations</h1>
-          <p className="text-gray-500 mt-2 text-center">Review your previous chats with the Survival Eats Assistant</p>
+          <p className="text-gray-500 mt-2 text-center">Review your previous chats with the Snackademy Assistant</p>
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -74,7 +74,7 @@ export default async function SavedChatsPage() {
       <footer className="w-full border-t py-6 md:py-0">
         <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
           <p className="text-center text-sm leading-loose text-gray-500 md:text-left">
-            © 2024 Survival Eats. All rights reserved.
+            © 2024 Snackademy. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link href="/terms" className="text-sm text-gray-500 hover:underline underline-offset-4">

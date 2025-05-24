@@ -1,5 +1,5 @@
 ---
-id: "4"
+id: "budget-grocery-shopping"
 title: "Budget-Friendly Grocery Shopping Strategies"
 description: "Learn how to eat well without breaking the bank with these money-saving shopping tips."
 type: "both"

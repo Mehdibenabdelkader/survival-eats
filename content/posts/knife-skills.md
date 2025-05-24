@@ -1,5 +1,5 @@
 ---
-id: "3"
+id: "knife-skills"
 title: "Knife Skills 101: Safe Cutting Techniques"
 description: "Master basic knife skills and learn to cut safely and efficiently in the kitchen."
 type: "video"

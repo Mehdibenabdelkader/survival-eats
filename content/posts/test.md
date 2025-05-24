@@ -1,6 +1,6 @@
 ---
-id: "stovetop-cooking"
-title: "Stovetop Cooking Fundamentals"
+id: "test"
+title: "Test"
 description: "Master the basic stovetop techniques that will serve as the foundation for countless meals."
 type: "post"
 tags: ["cooking", "stovetop", "techniques"]

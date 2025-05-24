@@ -1,5 +1,5 @@
 ---
-id: "2"
+id: "kitchen-essentials"
 title: "Essential Kitchen Tools for Beginners"
 description: "The only tools you actually need to start cooking - no expensive gadgets required."
 type: "post"

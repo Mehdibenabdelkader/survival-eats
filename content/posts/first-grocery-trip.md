@@ -1,5 +1,5 @@
 ---
-id: "1"
+id: "first-grocery-trip"
 title: "Your First Grocery Trip: Complete Beginner's Guide"
 description: "Everything you need to know for your first intentional grocery shopping trip, from planning to execution."
 type: "both"

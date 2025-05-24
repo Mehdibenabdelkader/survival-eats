@@ -24,8 +24,8 @@ export default function Home() {
             <Link href="/cooking-techniques" className="text-sm font-medium hover:underline underline-offset-4">
               Cooking Techniques
             </Link>
-            <Link href="/meal-planning" className="text-sm font-medium hover:underline underline-offset-4">
-              Meal Planning
+            <Link href="/content" className="text-sm font-medium hover:underline underline-offset-4">
+              All Content
             </Link>
             <Link href="/chat" className="text-sm font-medium hover:underline underline-offset-4">
               Ask Assistant

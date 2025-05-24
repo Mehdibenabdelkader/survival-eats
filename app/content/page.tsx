@@ -257,66 +257,79 @@ export default function ContentPage() {
             <h2 className="text-2xl font-bold mb-6">Featured Content</h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {featuredContent.map((item) => (
-                <Card key={item.id} className="overflow-hidden">
-                  <div className="relative">
-                    <Image
-                      src={item.image || "/placeholder.svg"}
-                      alt={item.title}
-                      width={300}
-                      height={200}
-                      className="w-full h-48 object-cover"
-                    />
-                    <div className="absolute top-2 left-2">
-                      <Badge variant="secondary" className="flex items-center gap-1">
-                        {getTypeIcon(item.type)}
-                        <span className="text-xs">{getTypeLabel(item.type)}</span>
-                      </Badge>
-                    </div>
-                    {item.type !== "post" && (
-                      <div className="absolute bottom-2 right-2">
-                        <Badge variant="outline" className="bg-black/50 text-white border-white/20">
-                          <Clock className="h-3 w-3 mr-1" />
-                          {item.videoLength}
+                <Link href={`/content/${item.id}`} key={item.id}>
+                  <Card className="overflow-hidden cursor-pointer hover:shadow-lg transition-shadow">
+                    {/* Keep all the existing card content the same */}
+                    <div className="relative">
+                      <Image
+                        src={item.image || "/placeholder.svg"}
+                        alt={item.title}
+                        width={300}
+                        height={200}
+                        className="w-full h-48 object-cover"
+                      />
+                      <div className="absolute top-2 left-2">
+                        <Badge variant="secondary" className="flex items-center gap-1">
+                          {getTypeIcon(item.type)}
+                          <span className="text-xs">{getTypeLabel(item.type)}</span>
                         </Badge>
                       </div>
-                    )}
-                  </div>
-                  <CardHeader>
-                    <CardTitle className="line-clamp-2">{item.title}</CardTitle>
-                    <CardDescription className="line-clamp-2">{item.description}</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="flex flex-wrap gap-1 mb-3">
-                      {item.tags.slice(0, 3).map((tag) => (
-                        <Badge key={tag} variant="outline" className="text-xs">
-                          {tag}
-                        </Badge>
-                      ))}
+                      {item.type !== "post" && (
+                        <div className="absolute bottom-2 right-2">
+                          <Badge variant="outline" className="bg-black/50 text-white border-white/20">
+                            <Clock className="h-3 w-3 mr-1" />
+                            {item.videoLength}
+                          </Badge>
+                        </div>
+                      )}
                     </div>
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2 text-sm text-gray-500">
-                        {item.readTime && (
-                          <span className="flex items-center gap-1">
-                            <FileText className="h-3 w-3" />
-                            {item.readTime}
-                          </span>
-                        )}
+                    <CardHeader>
+                      <CardTitle className="line-clamp-2">{item.title}</CardTitle>
+                      <CardDescription className="line-clamp-2">{item.description}</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="flex flex-wrap gap-1 mb-3">
+                        {item.tags.slice(0, 3).map((tag) => (
+                          <Badge
+                            key={tag}
+                            variant="outline"
+                            className={`text-xs ${selectedTags.includes(tag) ? "bg-primary text-primary-foreground" : ""}`}
+                            onClick={(e) => {
+                              e.preventDefault()
+                              e.stopPropagation()
+                              toggleTag(tag)
+                            }}
+                          >
+                            {tag}
+                          </Badge>
+                        ))}
                       </div>
-                      <div className="flex gap-2">
-                        <Button variant="outline" size="sm" asChild>
-                          <Link href={item.slug}>Read Guide</Link>
-                        </Button>
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-2 text-sm text-gray-500">
+                          {item.readTime && (
+                            <span className="flex items-center gap-1">
+                              <FileText className="h-3 w-3" />
+                              {item.readTime}
+                            </span>
+                          )}
+                        </div>
                         {item.youtubeUrl && (
-                          <Button variant="outline" size="sm" asChild>
-                            <a href={item.youtubeUrl} target="_blank" rel="noopener noreferrer">
-                              <ExternalLink className="h-3 w-3" />
-                            </a>
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={(e) => {
+                              e.preventDefault()
+                              e.stopPropagation()
+                              window.open(item.youtubeUrl, "_blank")
+                            }}
+                          >
+                            <ExternalLink className="h-3 w-3" />
                           </Button>
                         )}
                       </div>
-                    </div>
-                  </CardContent>
-                </Card>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
           </div>
@@ -379,71 +392,78 @@ export default function ContentPage() {
               {/* Content Grid */}
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {filteredContent.map((item) => (
-                  <Card key={item.id} className="overflow-hidden bg-white">
-                    <div className="relative">
-                      <Image
-                        src={item.image || "/placeholder.svg"}
-                        alt={item.title}
-                        width={300}
-                        height={200}
-                        className="w-full h-48 object-cover"
-                      />
-                      <div className="absolute top-2 left-2">
-                        <Badge variant="secondary" className="flex items-center gap-1">
-                          {getTypeIcon(item.type)}
-                          <span className="text-xs">{getTypeLabel(item.type)}</span>
-                        </Badge>
-                      </div>
-                      {item.type !== "post" && (
-                        <div className="absolute bottom-2 right-2">
-                          <Badge variant="outline" className="bg-black/50 text-white border-white/20">
-                            <Clock className="h-3 w-3 mr-1" />
-                            {item.videoLength}
+                  <Link href={`/content/${item.id}`} key={item.id}>
+                    <Card className="overflow-hidden cursor-pointer hover:shadow-lg transition-shadow">
+                      <div className="relative">
+                        <Image
+                          src={item.image || "/placeholder.svg"}
+                          alt={item.title}
+                          width={300}
+                          height={200}
+                          className="w-full h-48 object-cover"
+                        />
+                        <div className="absolute top-2 left-2">
+                          <Badge variant="secondary" className="flex items-center gap-1">
+                            {getTypeIcon(item.type)}
+                            <span className="text-xs">{getTypeLabel(item.type)}</span>
                           </Badge>
                         </div>
-                      )}
-                    </div>
-                    <CardHeader>
-                      <CardTitle className="line-clamp-2">{item.title}</CardTitle>
-                      <CardDescription className="line-clamp-2">{item.description}</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <div className="flex flex-wrap gap-1 mb-3">
-                        {item.tags.map((tag) => (
-                          <Badge
-                            key={tag}
-                            variant="outline"
-                            className={`text-xs cursor-pointer ${selectedTags.includes(tag) ? "bg-primary text-primary-foreground" : ""}`}
-                            onClick={() => toggleTag(tag)}
-                          >
-                            {tag}
-                          </Badge>
-                        ))}
+                        {item.type !== "post" && (
+                          <div className="absolute bottom-2 right-2">
+                            <Badge variant="outline" className="bg-black/50 text-white border-white/20">
+                              <Clock className="h-3 w-3 mr-1" />
+                              {item.videoLength}
+                            </Badge>
+                          </div>
+                        )}
                       </div>
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-2 text-sm text-gray-500">
-                          {item.readTime && (
-                            <span className="flex items-center gap-1">
-                              <FileText className="h-3 w-3" />
-                              {item.readTime}
-                            </span>
-                          )}
+                      <CardHeader>
+                        <CardTitle className="line-clamp-2">{item.title}</CardTitle>
+                        <CardDescription className="line-clamp-2">{item.description}</CardDescription>
+                      </CardHeader>
+                      <CardContent>
+                        <div className="flex flex-wrap gap-1 mb-3">
+                          {item.tags.map((tag) => (
+                            <Badge
+                              key={tag}
+                              variant="outline"
+                              className={`text-xs ${selectedTags.includes(tag) ? "bg-primary text-primary-foreground" : ""}`}
+                              onClick={(e) => {
+                                e.preventDefault()
+                                e.stopPropagation()
+                                toggleTag(tag)
+                              }}
+                            >
+                              {tag}
+                            </Badge>
+                          ))}
                         </div>
-                        <div className="flex gap-2">
-                          <Button variant="outline" size="sm" asChild>
-                            <Link href={item.slug}>Read Guide</Link>
-                          </Button>
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2 text-sm text-gray-500">
+                            {item.readTime && (
+                              <span className="flex items-center gap-1">
+                                <FileText className="h-3 w-3" />
+                                {item.readTime}
+                              </span>
+                            )}
+                          </div>
                           {item.youtubeUrl && (
-                            <Button variant="outline" size="sm" asChild>
-                              <a href={item.youtubeUrl} target="_blank" rel="noopener noreferrer">
-                                <ExternalLink className="h-3 w-3" />
-                              </a>
+                            <Button
+                              variant="outline"
+                              size="sm"
+                              onClick={(e) => {
+                                e.preventDefault()
+                                e.stopPropagation()
+                                window.open(item.youtubeUrl, "_blank")
+                              }}
+                            >
+                              <ExternalLink className="h-3 w-3" />
                             </Button>
                           )}
                         </div>
-                      </div>
-                    </CardContent>
-                  </Card>
+                      </CardContent>
+                    </Card>
+                  </Link>
                 ))}
               </div>
 

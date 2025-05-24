@@ -7,8 +7,8 @@ tags: ["groceries", "budget", "money-saving"]
 readTime: "10 min read"
 videoLength: "18:20"
 image: "/placeholder.svg?height=400&width=800"
-youtubeUrl: "https://youtube.com/watch?v=example3"
-youtubeEmbedId: "dQw4w9WgXcQ"
+youtubeUrl: "https://youtu.be/5jc1NGlnYQk"
+youtubeEmbedId: "5jc1NGlnYQk"
 author: "Snackademy Team"
 publishedDate: "2024-01-12"
 ---

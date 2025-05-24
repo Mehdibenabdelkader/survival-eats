@@ -7,8 +7,8 @@ tags: ["groceries", "beginner", "planning"]
 readTime: "8 min read"
 videoLength: "12:30"
 image: "/placeholder.svg?height=400&width=800"
-youtubeUrl: "https://youtube.com/watch?v=example1"
-youtubeEmbedId: "dQw4w9WgXcQ"
+youtubeUrl: "https://youtu.be/ylh9GnBYhfc"
+youtubeEmbedId: "ylh9GnBYhfc"
 featured: true
 author: "Snackademy Team"
 publishedDate: "2024-01-15"

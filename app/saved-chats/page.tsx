@@ -49,7 +49,12 @@ export default async function SavedChatsPage() {
                       <span>Continue</span>
                     </Link>
                   </Button>
-                  <form action={deleteChat}>
+                  <form
+                    action={async (formData) => {
+                      await deleteChat(formData)
+                      // Optionally, you can refresh the page or update state here
+                    }}
+                  >
                     <input type="hidden" name="id" value={chat.id} />
                     <Button variant="outline" size="icon" type="submit" className="text-red-500 hover:text-red-600">
                       <Trash2 className="h-4 w-4" />

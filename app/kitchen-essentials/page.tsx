@@ -10,7 +10,7 @@ export default function KitchenEssentialsPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-green-50">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-stone-50">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center gap-4 text-center">
               <Link
@@ -51,30 +51,30 @@ export default function KitchenEssentialsPage() {
                       <Card>
                         <CardHeader>
                           <CardTitle className="flex items-center gap-2">
-                            <Utensils className="h-5 w-5 text-green-600" />
+                            <Utensils className="h-5 w-5 text-[#FCAE47]" />
                             <span>Must-Have Tools</span>
                           </CardTitle>
                         </CardHeader>
                         <CardContent>
                           <ul className="space-y-2 text-sm">
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Chef's knife (8-inch)</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Cutting board</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Measuring cups & spoons</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Mixing bowls (2-3 sizes)</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Wooden spoon & spatula</span>
                             </li>
                           </ul>
@@ -83,30 +83,30 @@ export default function KitchenEssentialsPage() {
                       <Card>
                         <CardHeader>
                           <CardTitle className="flex items-center gap-2">
-                            <ChefHat className="h-5 w-5 text-green-600" />
+                            <ChefHat className="h-5 w-5 text-[#FCAE47]" />
                             <span>Basic Cookware</span>
                           </CardTitle>
                         </CardHeader>
                         <CardContent>
                           <ul className="space-y-2 text-sm">
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Large pot (for pasta, soups)</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Medium saucepan</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Large skillet/frying pan</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Baking sheet</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Casserole dish</span>
                             </li>
                           </ul>
@@ -149,7 +149,7 @@ export default function KitchenEssentialsPage() {
                         <CardContent>
                           <ul className="space-y-4">
                             <li className="grid grid-cols-[auto_1fr] gap-4">
-                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-green-600">
+                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-100 text-[#FCAE47]">
                                 <span className="font-bold">1</span>
                               </div>
                               <div className="space-y-1">
@@ -158,7 +158,7 @@ export default function KitchenEssentialsPage() {
                               </div>
                             </li>
                             <li className="grid grid-cols-[auto_1fr] gap-4">
-                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-green-600">
+                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-100 text-[#FCAE47]">
                                 <span className="font-bold">2</span>
                               </div>
                               <div className="space-y-1">
@@ -169,7 +169,7 @@ export default function KitchenEssentialsPage() {
                               </div>
                             </li>
                             <li className="grid grid-cols-[auto_1fr] gap-4">
-                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-green-600">
+                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-100 text-[#FCAE47]">
                                 <span className="font-bold">3</span>
                               </div>
                               <div className="space-y-1">
@@ -190,19 +190,19 @@ export default function KitchenEssentialsPage() {
                         <CardContent>
                           <ul className="space-y-2 text-sm">
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Always cut on a stable cutting board, never in your hand</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Keep knives sharp - dull knives are more dangerous</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Hand wash knives and dry immediately - never put in dishwasher</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Store knives in a block, on a magnetic strip, or with blade guards</span>
                             </li>
                           </ul>
@@ -241,7 +241,7 @@ export default function KitchenEssentialsPage() {
                         <CardContent>
                           <ul className="space-y-4">
                             <li className="grid grid-cols-[auto_1fr] gap-4">
-                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-green-600">
+                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-100 text-[#FCAE47]">
                                 <span className="font-bold">1</span>
                               </div>
                               <div className="space-y-1">
@@ -250,7 +250,7 @@ export default function KitchenEssentialsPage() {
                               </div>
                             </li>
                             <li className="grid grid-cols-[auto_1fr] gap-4">
-                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-green-600">
+                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-100 text-[#FCAE47]">
                                 <span className="font-bold">2</span>
                               </div>
                               <div className="space-y-1">
@@ -259,7 +259,7 @@ export default function KitchenEssentialsPage() {
                               </div>
                             </li>
                             <li className="grid grid-cols-[auto_1fr] gap-4">
-                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-green-600">
+                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-100 text-[#FCAE47]">
                                 <span className="font-bold">3</span>
                               </div>
                               <div className="space-y-1">
@@ -268,7 +268,7 @@ export default function KitchenEssentialsPage() {
                               </div>
                             </li>
                             <li className="grid grid-cols-[auto_1fr] gap-4">
-                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-green-600">
+                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-100 text-[#FCAE47]">
                                 <span className="font-bold">4</span>
                               </div>
                               <div className="space-y-1">
@@ -279,7 +279,7 @@ export default function KitchenEssentialsPage() {
                               </div>
                             </li>
                             <li className="grid grid-cols-[auto_1fr] gap-4">
-                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-green-600">
+                              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-100 text-[#FCAE47]">
                                 <span className="font-bold">5</span>
                               </div>
                               <div className="space-y-1">
@@ -321,23 +321,23 @@ export default function KitchenEssentialsPage() {
                         <CardContent>
                           <ul className="space-y-2 text-sm">
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Measuring cups (dry and liquid)</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Measuring spoons</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Mixing bowls (various sizes)</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Colander/strainer</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Box grater</span>
                             </li>
                           </ul>
@@ -350,23 +350,23 @@ export default function KitchenEssentialsPage() {
                         <CardContent>
                           <ul className="space-y-2 text-sm">
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Wooden spoon</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Silicone spatula</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Tongs</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Whisk</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Ladle</span>
                             </li>
                           </ul>
@@ -380,14 +380,14 @@ export default function KitchenEssentialsPage() {
                         <CardContent>
                           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <div>
                                 <span className="font-medium">Digital food thermometer</span>
                                 <p className="text-xs text-gray-500">Ensures food safety and prevents overcooking</p>
                               </div>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <div>
                                 <span className="font-medium">Immersion blender</span>
                                 <p className="text-xs text-gray-500">
@@ -396,14 +396,14 @@ export default function KitchenEssentialsPage() {
                               </div>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <div>
                                 <span className="font-medium">Rice cooker</span>
                                 <p className="text-xs text-gray-500">Perfect rice every time with no monitoring</p>
                               </div>
                             </li>
                             <li className="flex items-start gap-2">
-                              <CheckCircle className="h-4 w-4 text-green-600 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <div>
                                 <span className="font-medium">Slow cooker</span>
                                 <p className="text-xs text-gray-500">

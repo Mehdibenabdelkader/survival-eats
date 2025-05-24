@@ -10,7 +10,7 @@ export default function GroceryBasicsPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-green-50">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-stone-50">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center gap-4 text-center">
               <Link
@@ -50,27 +50,27 @@ export default function GroceryBasicsPage() {
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-green-600 mt-0.5" />
+                        <CheckCircle className="h-5 w-5 text-[#FCAE47] mt-0.5" />
                         <span>Plan before you go - know what meals you want to make</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-green-600 mt-0.5" />
+                        <CheckCircle className="h-5 w-5 text-[#FCAE47] mt-0.5" />
                         <span>
                           Start with a small list of essentials rather than trying to stock an entire kitchen at once
                         </span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-green-600 mt-0.5" />
+                        <CheckCircle className="h-5 w-5 text-[#FCAE47] mt-0.5" />
                         <span>
                           Shop the perimeter of the store first - that's where fresh foods are usually located
                         </span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-green-600 mt-0.5" />
+                        <CheckCircle className="h-5 w-5 text-[#FCAE47] mt-0.5" />
                         <span>Compare prices by looking at the unit price, not just the total price</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-green-600 mt-0.5" />
+                        <CheckCircle className="h-5 w-5 text-[#FCAE47] mt-0.5" />
                         <span>Don't shop when you're hungry - you'll buy more than you need</span>
                       </li>
                     </ul>
@@ -105,35 +105,35 @@ export default function GroceryBasicsPage() {
                         <CardContent>
                           <ul className="grid grid-cols-2 gap-2 text-sm">
                             <li className="flex items-center gap-2">
-                              <ShoppingCart className="h-4 w-4 text-green-600" />
+                              <ShoppingCart className="h-4 w-4 text-[#FCAE47]" />
                               <span>Rice or pasta</span>
                             </li>
                             <li className="flex items-center gap-2">
-                              <ShoppingCart className="h-4 w-4 text-green-600" />
+                              <ShoppingCart className="h-4 w-4 text-[#FCAE47]" />
                               <span>Canned beans</span>
                             </li>
                             <li className="flex items-center gap-2">
-                              <ShoppingCart className="h-4 w-4 text-green-600" />
+                              <ShoppingCart className="h-4 w-4 text-[#FCAE47]" />
                               <span>Eggs</span>
                             </li>
                             <li className="flex items-center gap-2">
-                              <ShoppingCart className="h-4 w-4 text-green-600" />
+                              <ShoppingCart className="h-4 w-4 text-[#FCAE47]" />
                               <span>Frozen vegetables</span>
                             </li>
                             <li className="flex items-center gap-2">
-                              <ShoppingCart className="h-4 w-4 text-green-600" />
+                              <ShoppingCart className="h-4 w-4 text-[#FCAE47]" />
                               <span>Onions & garlic</span>
                             </li>
                             <li className="flex items-center gap-2">
-                              <ShoppingCart className="h-4 w-4 text-green-600" />
+                              <ShoppingCart className="h-4 w-4 text-[#FCAE47]" />
                               <span>Cooking oil</span>
                             </li>
                             <li className="flex items-center gap-2">
-                              <ShoppingCart className="h-4 w-4 text-green-600" />
+                              <ShoppingCart className="h-4 w-4 text-[#FCAE47]" />
                               <span>Salt & pepper</span>
                             </li>
                             <li className="flex items-center gap-2">
-                              <ShoppingCart className="h-4 w-4 text-green-600" />
+                              <ShoppingCart className="h-4 w-4 text-[#FCAE47]" />
                               <span>Bread</span>
                             </li>
                           </ul>
@@ -179,7 +179,7 @@ export default function GroceryBasicsPage() {
                       <Card>
                         <CardHeader>
                           <CardTitle className="flex items-center gap-2">
-                            <DollarSign className="h-5 w-5 text-green-600" />
+                            <DollarSign className="h-5 w-5 text-[#FCAE47]" />
                             <span>Budget-Friendly Protein Sources</span>
                           </CardTitle>
                         </CardHeader>
@@ -196,7 +196,7 @@ export default function GroceryBasicsPage() {
                       <Card>
                         <CardHeader>
                           <CardTitle className="flex items-center gap-2">
-                            <DollarSign className="h-5 w-5 text-green-600" />
+                            <DollarSign className="h-5 w-5 text-[#FCAE47]" />
                             <span>Money-Saving Shopping Habits</span>
                           </CardTitle>
                         </CardHeader>
@@ -238,7 +238,7 @@ export default function GroceryBasicsPage() {
                       <Card>
                         <CardHeader>
                           <CardTitle className="flex items-center gap-2">
-                            <Bookmark className="h-5 w-5 text-green-600" />
+                            <Bookmark className="h-5 w-5 text-[#FCAE47]" />
                             <span>Refrigerator Organization</span>
                           </CardTitle>
                         </CardHeader>
@@ -265,7 +265,7 @@ export default function GroceryBasicsPage() {
                       <Card>
                         <CardHeader>
                           <CardTitle className="flex items-center gap-2">
-                            <Bookmark className="h-5 w-5 text-green-600" />
+                            <Bookmark className="h-5 w-5 text-[#FCAE47]" />
                             <span>Pantry Storage Tips</span>
                           </CardTitle>
                         </CardHeader>

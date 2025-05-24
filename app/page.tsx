@@ -56,7 +56,7 @@ export default function Home() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-green-50">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-stone-50">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="flex flex-col justify-center space-y-4">
@@ -106,7 +106,7 @@ export default function Home() {
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 mt-8">
               <Card>
                 <CardHeader>
-                  <ShoppingCart className="h-10 w-10 text-green-600 mb-2" />
+                  <ShoppingCart className="h-10 w-10 text-[#FCAE47] mb-2" />
                   <CardTitle>Grocery Basics</CardTitle>
                   <CardDescription>
                     Learn how to navigate stores, read labels, and buy what you actually need.
@@ -125,7 +125,7 @@ export default function Home() {
               </Card>
               <Card>
                 <CardHeader>
-                  <Utensils className="h-10 w-10 text-green-600 mb-2" />
+                  <Utensils className="h-10 w-10 text-[#FCAE47] mb-2" />
                   <CardTitle>Kitchen Essentials</CardTitle>
                   <CardDescription>The only tools you actually need to start cooking delicious meals.</CardDescription>
                 </CardHeader>
@@ -140,7 +140,7 @@ export default function Home() {
               </Card>
               <Card>
                 <CardHeader>
-                  <BookOpen className="h-10 w-10 text-green-600 mb-2" />
+                  <BookOpen className="h-10 w-10 text-[#FCAE47] mb-2" />
                   <CardTitle>Cooking Techniques</CardTitle>
                   <CardDescription>Master simple cooking methods that work for dozens of meals.</CardDescription>
                 </CardHeader>
@@ -155,7 +155,7 @@ export default function Home() {
               </Card>
               <Card>
                 <CardHeader>
-                  <MessageCircle className="h-10 w-10 text-green-600 mb-2" />
+                  <MessageCircle className="h-10 w-10 text-[#FCAE47] mb-2" />
                   <CardTitle>AI Assistant</CardTitle>
                   <CardDescription>Get personalized help with your cooking questions.</CardDescription>
                 </CardHeader>
@@ -171,7 +171,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-green-50">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-stone-50">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="flex justify-center">
@@ -195,19 +195,19 @@ export default function Home() {
                 </div>
                 <ul className="grid gap-2">
                   <li className="flex items-center gap-2">
-                    <DollarSign className="h-5 w-5 text-green-600" />
+                    <DollarSign className="h-5 w-5 text-[#FCAE47]" />
                     <span>Save money by cooking at home</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <ShoppingCart className="h-5 w-5 text-green-600" />
+                    <ShoppingCart className="h-5 w-5 text-[#FCAE47]" />
                     <span>Learn to shop efficiently and reduce waste</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <Utensils className="h-5 w-5 text-green-600" />
+                    <Utensils className="h-5 w-5 text-[#FCAE47]" />
                     <span>Build confidence with simple, repeatable techniques</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <MessageCircle className="h-5 w-5 text-green-600" />
+                    <MessageCircle className="h-5 w-5 text-[#FCAE47]" />
                     <span>Get personalized help from our AI assistant</span>
                   </li>
                 </ul>

@@ -10,7 +10,7 @@ export default function CookingTechniquesPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-green-50">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-stone-50">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center gap-4 text-center">
               <Link
@@ -51,7 +51,7 @@ export default function CookingTechniquesPage() {
                       <Card>
                         <CardHeader>
                           <CardTitle className="flex items-center gap-2">
-                            <Flame className="h-5 w-5 text-green-600" />
+                            <Flame className="h-5 w-5 text-[#FCAE47]" />
                             <span>Sautéing</span>
                           </CardTitle>
                           <CardDescription>Quick cooking in a small amount of fat</CardDescription>
@@ -89,7 +89,7 @@ export default function CookingTechniquesPage() {
                       <Card>
                         <CardHeader>
                           <CardTitle className="flex items-center gap-2">
-                            <Flame className="h-5 w-5 text-green-600" />
+                            <Flame className="h-5 w-5 text-[#FCAE47]" />
                             <span>Boiling & Simmering</span>
                           </CardTitle>
                           <CardDescription>Cooking in liquid at different temperatures</CardDescription>
@@ -150,7 +150,7 @@ export default function CookingTechniquesPage() {
                       <Card>
                         <CardHeader>
                           <CardTitle className="flex items-center gap-2">
-                            <Flame className="h-5 w-5 text-green-600" />
+                            <Flame className="h-5 w-5 text-[#FCAE47]" />
                             <span>Roasting</span>
                           </CardTitle>
                           <CardDescription>Cooking with dry heat to develop flavor</CardDescription>
@@ -187,7 +187,7 @@ export default function CookingTechniquesPage() {
                       <Card>
                         <CardHeader>
                           <CardTitle className="flex items-center gap-2">
-                            <Flame className="h-5 w-5 text-green-600" />
+                            <Flame className="h-5 w-5 text-[#FCAE47]" />
                             <span>Baking</span>
                           </CardTitle>
                           <CardDescription>Cooking with surrounding heat</CardDescription>
@@ -249,7 +249,7 @@ export default function CookingTechniquesPage() {
                       <Card>
                         <CardHeader>
                           <CardTitle className="flex items-center gap-2">
-                            <Utensils className="h-5 w-5 text-green-600" />
+                            <Utensils className="h-5 w-5 text-[#FCAE47]" />
                             <span>Cutting Techniques</span>
                           </CardTitle>
                         </CardHeader>
@@ -291,7 +291,7 @@ export default function CookingTechniquesPage() {
                       <Card>
                         <CardHeader>
                           <CardTitle className="flex items-center gap-2">
-                            <Utensils className="h-5 w-5 text-green-600" />
+                            <Utensils className="h-5 w-5 text-[#FCAE47]" />
                             <span>Mise en Place</span>
                           </CardTitle>
                           <CardDescription>"Everything in its place" - the key to stress-free cooking</CardDescription>
@@ -303,19 +303,19 @@ export default function CookingTechniquesPage() {
                           </p>
                           <ul className="mt-2 space-y-2 text-sm">
                             <li className="flex items-start gap-2">
-                              <Clock className="h-4 w-4 text-green-600 mt-0.5" />
+                              <Clock className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Read the entire recipe before starting</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <Clock className="h-4 w-4 text-green-600 mt-0.5" />
+                              <Clock className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Gather all ingredients and tools</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <Clock className="h-4 w-4 text-green-600 mt-0.5" />
+                              <Clock className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Measure, chop, and prepare everything</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <Clock className="h-4 w-4 text-green-600 mt-0.5" />
+                              <Clock className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Organize ingredients in order of use</span>
                             </li>
                           </ul>
@@ -349,7 +349,7 @@ export default function CookingTechniquesPage() {
                       <Card>
                         <CardHeader>
                           <CardTitle className="flex items-center gap-2">
-                            <Clock className="h-5 w-5 text-green-600" />
+                            <Clock className="h-5 w-5 text-[#FCAE47]" />
                             <span>Meal Timing Basics</span>
                           </CardTitle>
                         </CardHeader>
@@ -360,19 +360,19 @@ export default function CookingTechniquesPage() {
                           </p>
                           <ul className="mt-2 space-y-2 text-sm">
                             <li className="flex items-start gap-2">
-                              <Clock className="h-4 w-4 text-green-600 mt-0.5" />
+                              <Clock className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Start with the longest-cooking item first</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <Clock className="h-4 w-4 text-green-600 mt-0.5" />
+                              <Clock className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Work backward from when you want to eat</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <Clock className="h-4 w-4 text-green-600 mt-0.5" />
+                              <Clock className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Use "holding techniques" for items that finish early</span>
                             </li>
                             <li className="flex items-start gap-2">
-                              <Clock className="h-4 w-4 text-green-600 mt-0.5" />
+                              <Clock className="h-4 w-4 text-[#FCAE47] mt-0.5" />
                               <span>Prepare cold items while hot items are cooking</span>
                             </li>
                           </ul>
@@ -381,7 +381,7 @@ export default function CookingTechniquesPage() {
                       <Card>
                         <CardHeader>
                           <CardTitle className="flex items-center gap-2">
-                            <ThermometerSnow className="h-5 w-5 text-green-600" />
+                            <ThermometerSnow className="h-5 w-5 text-[#FCAE47]" />
                             <span>Holding & Reheating</span>
                           </CardTitle>
                           <CardDescription>Keep food at the right temperature until serving</CardDescription>

@@ -1,29 +1,72 @@
-# Survival Eats website
+# 🥪 Snackademy
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+**Snackademy** is a beginner-friendly website designed to teach people how to cook simple meals and shop for groceries wisely. Whether you're a student, someone living alone, or just new to the kitchen, Snackademy offers step-by-step guides to help you survive — and thrive — on your own.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/mehdibenabdelkaders-projects/v0-survival-eats-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/OMOFQd9yMrh)
+## 🧠 Why Snackademy?
 
-## Overview
+Many people struggle with cooking and buying the right ingredients when they first start living independently. Snackademy is here to help by providing:
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- Easy cooking tutorials 🧑‍🍳  
+- Smart grocery shopping tips 🛒  
+- Simple meal plans based on budget and nutrition 💰🥦  
+- A judgment-free zone to learn and grow 💡
 
-## Deployment
+## 🌐 Website Features
 
-Your project is live at:
+- 🍽️ **Recipe Explorer** – Browse simple meals with minimal ingredients.
+- 🛍️ **Shopping Lists** – Auto-generated based on selected meals.
+- 🏷️ **Grocery Basics** – Learn how to read labels, buy smart, and store food.
+- 💬 **Snackademy Tips** – Short lessons on kitchen tools, techniques, and survival tricks.
+- 📦 **Beginner Kits** – Starter guides for absolute beginners.
 
-**[https://vercel.com/mehdibenabdelkaders-projects/v0-survival-eats-website](https://vercel.com/mehdibenabdelkaders-projects/v0-survival-eats-website)**
+## 🛠️ Built With
 
-## Build your app
+- **Frontend**: HTML, CSS, JavaScript (React / Tailwind)
+- **Backend** (optional): Node.js / Express / Firebase
+- **Content**: Markdown / CMS (like Sanity or Strapi if used)
 
-Continue building your app on:
+## 🚀 Getting Started
 
-**[https://v0.dev/chat/projects/OMOFQd9yMrh](https://v0.dev/chat/projects/OMOFQd9yMrh)**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/snackademy.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd snackademy
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-## How It Works
+## 📁 Project Structure
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
+\`\`\`
+snackademy/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   └── utils/
+├── README.md
+├── package.json
+└── ...
+\`\`\`
+
+## ✍️ Contributing
+
+We’re always looking for content contributors! If you can write recipes, food tips, or beginner guides, feel free to fork the repo or open a discussion.
+
+## 📄 License
+
+MIT License
+
+---
+
+**Snackademy — survive the kitchen, thrive in life.**

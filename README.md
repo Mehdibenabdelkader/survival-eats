@@ -17,13 +17,8 @@ Many people struggle with cooking and buying the right ingredients when they fir
 - 🛍️ **Shopping Lists** – Auto-generated based on selected meals.
 - 🏷️ **Grocery Basics** – Learn how to read labels, buy smart, and store food.
 - 💬 **Snackademy Tips** – Short lessons on kitchen tools, techniques, and survival tricks.
-- 📦 **Beginner Kits** – Starter guides for absolute beginners.
+- 📦 **AI assistant** – coming soon
 
-## 🛠️ Built With
-
-- **Frontend**: HTML, CSS, JavaScript (React / Tailwind)
-- **Backend** (optional): Node.js / Express / Firebase
-- **Content**: Markdown / CMS (like Sanity or Strapi if used)
 
 ## 🚀 Getting Started
 
@@ -43,21 +38,6 @@ Many people struggle with cooking and buying the right ingredients when they fir
    ```bash
    npm run dev
    ```
-
-## 📁 Project Structure
-
-\`\`\`
-snackademy/
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── styles/
-│   └── utils/
-├── README.md
-├── package.json
-└── ...
-\`\`\`
 
 ## ✍️ Contributing
 
